@@ -1,0 +1,107 @@
+[
+    {
+        "question": "¿Quién es el máximo goleador de la historia de la Copa del Mundo?",
+        "options": ["Miroslav Klose", "Cristiano Ronaldo", "Pele"],
+        "answer": "Miroslav Klose"
+    },
+    {
+        "question": "¿Qué país ganó la primera Copa del Mundo en 1930?",
+        "options": ["Uruguay", "Brasil", "Argentina"],
+        "answer": "Uruguay"
+    },
+    {
+        "question": "¿Qué club ha ganado más títulos de la UEFA Champions League?",
+        "options": ["Real Madrid", "FC Barcelona", "AC Milan"],
+        "answer": "Real Madrid"
+    },
+    {
+        "question": "¿Cuál es el nombre del estadio del FC Barcelona?",
+        "options": ["Santiago Bernabéu", "Camp Nou", "Wembley"],
+        "answer": "Camp Nou"
+    },
+    {
+        "question": "¿Qué jugador tiene más Balones de Oro?",
+        "options": ["Lionel Messi", "Cristiano Ronaldo", "Johan Cruyff"],
+        "answer": "Lionel Messi"
+    },
+    {
+        "question": "¿Qué país ganó la Copa del Mundo en 2018?",
+        "options": ["Francia", "Croacia", "Alemania"],
+        "answer": "Francia"
+    },
+    {
+        "question": "¿Qué equipo ganó la Eurocopa 2016?",
+        "options": ["Portugal", "Francia", "España"],
+        "answer": "Portugal"
+    },
+    {
+        "question": "¿Cuál es el nombre del estadio del Manchester United?",
+        "options": ["Old Trafford", "Anfield", "Etihad Stadium"],
+        "answer": "Old Trafford"
+    },
+    {
+        "question": "¿Qué jugador es conocido como 'El Fenómeno'?",
+        "options": ["Ronaldo Nazário", "Ronaldinho", "Zico"],
+        "answer": "Ronaldo Nazário"
+    },
+    {
+        "question": "¿Qué país ha ganado más Copas del Mundo?",
+        "options": ["Brasil", "Alemania", "Italia"],
+        "answer": "Brasil"
+    },
+    {
+        "question": "¿En qué año se inauguró la Premier League?",
+        "options": ["1992", "1995", "1999"],
+        "answer": "1992"
+    },
+    {
+        "question": "¿Cuál es el apodo del equipo nacional de Argentina?",
+        "options": ["La Albiceleste", "La Roja", "Los Azules"],
+        "answer": "La Albiceleste"
+    },
+    {
+        "question": "¿Quién es el máximo goleador en la historia de la Liga Española?",
+        "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra"],
+        "answer": "Lionel Messi"
+    },
+    {
+        "question": "¿Qué equipo tiene el récord de más títulos de la Serie A italiana?",
+        "options": ["Juventus", "AC Milan", "Inter de Milán"],
+        "answer": "Juventus"
+    },
+    {
+        "question": "¿Quién ganó el Mundial de 2010?",
+        "options": ["España", "Países Bajos", "Alemania"],
+        "answer": "España"
+    },
+    {
+        "question": "¿Qué equipo es conocido como 'Los Red Devils'?",
+        "options": ["Manchester United", "Liverpool", "Arsenal"],
+        "answer": "Manchester United"
+    },
+    {
+        "question": "¿Qué jugador marcó el 'Gol de la Mano de Dios'?",
+        "options": ["Diego Maradona", "Pelé", "Jorge Valdano"],
+        "answer": "Diego Maradona"
+    },
+    {
+        "question": "¿Cuál es el club más exitoso en la historia de la Copa Libertadores?",
+        "options": ["Club Atlético Independiente", "Boca Juniors", "River Plate"],
+        "answer": "Club Atlético Independiente"
+    },
+    {
+        "question": "¿Qué selección ganó la Copa América 2021?",
+        "options": ["Argentina", "Brasil", "Chile"],
+        "answer": "Argentina"
+    },
+    {
+        "question": "¿Qué equipo de la Bundesliga ha ganado más títulos?",
+        "options": ["Bayern Munich", "Borussia Dortmund", "Hamburgo"],
+        "answer": "Bayern Munich"
+    },
+    {
+        "question": "¿Quién es el entrenador con más títulos de la UEFA Champions League?",
+        "options": ["Carlo Ancelotti", "Zinedine Zidane", "Alex Ferguson"],
+        "answer": "Carlo Ancelotti"
+    }
+]
