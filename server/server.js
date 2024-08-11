@@ -13,10 +13,7 @@ const preguntas = "data/preguntas.json";
 app.use(cors(corsOptions));
 app.use(express.json()); 
 
-//Ejemplo básico de get
-app.get("/api", (req, res) => {
-    res.json({fruits: ["apple", "strawberry","banana"]});
-})
+
 
 // Ruta para manejar la creación de usuarios
 app.post('/api/users', (req, res) => {
@@ -54,6 +51,14 @@ app.get('/api/questions', (req, res) => {
     res.status(200).json(preguntasAleatorias);
 });
 
+// Ruta para manejar consultas de historial
+app.get('/api/history', (req, res) => { 
+    // Leer los datos existentes
+    let datos = LeerDatos(usuarios);
+    // Respuesta exitosa
+    res.status(200).json(datos);
+});
+
 // Funciones axiliares
 
 let LeerDatos = function (archivo) {
@@ -65,13 +70,10 @@ let LeerDatos = function (archivo) {
 
 // Función para seleccionar 'n' elementos aleatorios de un array
 function seleccionarPreguntasAleatorias(array, n) {
-    // Barajar el array utilizando el algoritmo de Fisher-Yates
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
-
-    // Seleccionar los primeros 'n' elementos del array barajado
     return array.slice(0, n);
 }
 
