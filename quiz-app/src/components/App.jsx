@@ -9,6 +9,7 @@ import History from '../pages/History';
 function App() {
 
   return (
+    //Configuración de las rutas
     <BrowserRouter>
       <Routes>
         <Route index path='/' element={<Home/>}/>

@@ -3,20 +3,22 @@ import { useNavigate} from 'react-router-dom';
 
 
 const Home = () => {
+  // Se inicializa el estado del nombre
   const [name, setName] = useState('');
   const navigate = useNavigate();
 
+  // Función para manejar el botón de iniciar juego
   const handleStartGame = () => {
     if (name.trim() !== '') {
-      // Logic to start the game can be added here
-      console.log(`Starting game for ${name}`);
       // Redirigir a la página de Game y pasar el nombre del usuario como estado
       navigate('/juego', { state: { name } });
     } else {
+      // Mostrar una alerta si el nombre está vacío
       alert('Please enter your name');
     }
   };
 
+  // Función para manejar el botón de historial
   const handleHistory = () => { 
     navigate('/history');
   };

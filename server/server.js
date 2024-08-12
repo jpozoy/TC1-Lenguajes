@@ -1,12 +1,13 @@
 const express = require("express");
 const cors = require("cors")
-const fs = require('fs'); //Modulo para escribir archivos
+const fs = require('fs'); 
 
 const app = express();
 const corsOptions = {
     origin: "http://localhost:5173",
 };
 
+// Archivos de datos
 const usuarios = "data/usuarios.json";
 const preguntas = "data/preguntas.json";
 
@@ -18,8 +19,6 @@ app.use(express.json());
 // Ruta para manejar la creación de usuarios
 app.post('/api/users', (req, res) => {
     const { name, score } = req.body;
-
-    console.log(`Creating user with name: ${name} and score: ${score}`);
 
     // Si el archivo no existe, lo creas con un array vacío
     if (!fs.existsSync(usuarios)) {
@@ -61,6 +60,7 @@ app.get('/api/history', (req, res) => {
 
 // Funciones axiliares
 
+// Función para leer datos de un archivo JSON
 let LeerDatos = function (archivo) {
     let rawdata = fs.readFileSync(archivo);
     let Datos = JSON.parse(rawdata);
@@ -77,6 +77,7 @@ function seleccionarPreguntasAleatorias(array, n) {
     return array.slice(0, n);
 }
 
+// Iniciar el servidor
 app.listen(8080, () => {
     console.log("Server started on port 8080");
 })

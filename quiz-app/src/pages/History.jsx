@@ -3,9 +3,11 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 const History = () => {
+  // Se inicializa el estado
   const [results, setResults] = useState([]);
   const navigate = useNavigate();
 
+  // Se obtienen los resultados del historial
   useEffect(() => {
     const fetchResults = async () => {
       try {
@@ -19,6 +21,7 @@ const History = () => {
     fetchResults();
   }, []);
 
+  // Función para manejar el botón de regresar al inicio
   const handleHome = () => {
     navigate('/');
   };
@@ -79,7 +82,6 @@ const headerStyle = {
 };
 
 const cellStyle = {
-  // padding: '10px 20px',
   textAlign: 'center',
   borderBottom: '1px solid #ddd',
 };
